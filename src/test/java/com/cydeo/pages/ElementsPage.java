@@ -6,9 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ElementsPage {
 
-    //pagefactory rrquired if we use @FindBy otherwise not required
+    //pagefactory required if we use @FindBy otherwise not required
     public ElementsPage() {
-        PageFactory.initElements(Driver.getDriver(),this);
+     PageFactory.initElements(Driver.getDriver(),this);
     }
 
     public void clickOption(String option){
